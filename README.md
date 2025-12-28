@@ -10,19 +10,19 @@ Built for **GSoC 2026** (Apache Beam ML pipeline integration planned)
 
 ---
 
-## 🚀 What Makes QuantForge Unique
+##  What Makes QuantForge Unique
 
 **First-of-its-kind** open-source multi-agent system specifically designed for financial analysis:
 
-- **🤖 Multi-Agent Orchestration**: Specialized AI agents (market analyst, sentiment analyzer, risk manager) collaborate via LangChain
-- **🧠 Vector Memory**: Semantic search & reasoning using Weaviate embeddings
-- **📊 Smart Data Pipeline**: 7+ free data sources with automatic fallback (yfinance, Finnhub, FMP, Polygon, Alpha Vantage, Twelve Data, IEX Cloud)
-- **⚡ Real-time Streaming**: WebSocket-ready for live market data
-- **🔄 Fault Tolerance**: Built-in retry logic, rate limiting, and graceful degradation
+- ** Multi-Agent Orchestration**: Specialized AI agents (market analyst, sentiment analyzer, risk manager) collaborate via LangChain
+- ** Vector Memory**: Semantic search & reasoning using Weaviate embeddings
+- ** Smart Data Pipeline**: 7+ free data sources with automatic fallback (yfinance, Finnhub, FMP, Polygon, Alpha Vantage, Twelve Data, IEX Cloud)
+- ** Real-time Streaming**: WebSocket-ready for live market data
+- ** Fault Tolerance**: Built-in retry logic, rate limiting, and graceful degradation
 
 ---
 
-## 📐 Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -48,7 +48,7 @@ Built for **GSoC 2026** (Apache Beam ML pipeline integration planned)
 
 ---
 
-## 🎯 Quick Demo
+##  Quick Demo
 
 ### Fetch Stock Data with Auto-Fallback
 
@@ -82,7 +82,7 @@ fh_data = finnhub_connector.fetch_ohlcv("MSFT", interval="1d")
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 # Clone the demo
@@ -98,7 +98,7 @@ python demo.py
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |-----------|-----------|
@@ -113,13 +113,13 @@ python demo.py
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 ### 1. **Smart Data Connectors**
-- ✅ 7 free data sources (no Intrinio subscription needed!)
-- ✅ Automatic fallback if primary source fails
-- ✅ Built-in rate limiting (respects API quotas)
-- ✅ Retry logic with exponential backoff
+-  7 free data sources (no Intrinio subscription needed!)
+-  Automatic fallback if primary source fails
+-  Built-in rate limiting (respects API quotas)
+-  Retry logic with exponential backoff
 
 ### 2. **Multi-Agent System** *(Full implementation in private repo)*
 - Market Analyst Agent (technical analysis)
@@ -140,23 +140,23 @@ python demo.py
 
 ---
 
-## 📊 Data Sources Comparison
+##  Data Sources Comparison
 
 | Source | Free Tier | Rate Limit | API Key |
 |--------|-----------|------------|---------|
-| **yfinance** | Unlimited | None | ❌ No |
-| **Finnhub** | 60 calls/min | 60/min | ✅ Yes |
-| **FMP** | 250/day | 5/min | ✅ Yes |
-| **Alpha Vantage** | 25/day | 5/min | ✅ Yes |
-| **Polygon** | 5/min | 5/min | ✅ Yes |
-| **Twelve Data** | 800/day | 8/min | ✅ Yes |
-| **IEX Cloud** | 50k/month | 100/min | ✅ Yes |
+| **yfinance** | Unlimited | None |  No |
+| **Finnhub** | 60 calls/min | 60/min |  Yes |
+| **FMP** | 250/day | 5/min |  Yes |
+| **Alpha Vantage** | 25/day | 5/min |  Yes |
+| **Polygon** | 5/min | 5/min |  Yes |
+| **Twelve Data** | 800/day | 8/min |  Yes |
+| **IEX Cloud** | 50k/month | 100/min |  Yes |
 
 *QuantForge automatically tries each source in order until data is retrieved*
 
 ---
 
-## 🎓 GSoC 2026 Vision
+##  GSoC 2026 Vision
 
 ### Planned Apache Beam Integration
 
@@ -173,24 +173,24 @@ python demo.py
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 This demo showcases the **data ingestion layer**. The full QuantForge system (agents, memory, orchestration) is in active development.
 
 **Interested in collaborating?**
-- 💬 Open an issue for feature requests
-- 🐛 Report bugs or connector issues
-- ⭐ Star the repo if you find it useful!
+-  Open an issue for feature requests
+-  Report bugs or connector issues
+-  Star the repo if you find it useful!
 
 ---
 
-## 📄 License
+##  License
 
 MIT License - see LICENSE file
 
 ---
 
-## 🔗 Links
+##  Links
 
 - **Author**: [Your Name]
 - **Email**: your.email@example.com
@@ -199,11 +199,11 @@ MIT License - see LICENSE file
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 Built solo as part of my journey to:
 1. Master data structures & algorithms (12-week intensive)
 2. Contribute to Apache Beam for GSoC 2026
 3. Build production AI systems for finance
 
-**Feedback welcome!** 🚀
+**Feedback welcome!** 

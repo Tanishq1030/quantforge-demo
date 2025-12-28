@@ -184,26 +184,13 @@ This demo showcases the **data ingestion layer**. The full QuantForge system (ag
 
 ---
 
-##  License
-
 MIT License - see LICENSE file
 
 ---
 
-##  Links
+## Acknowledgments
 
-- **Author**: [Your Name]
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your Profile]
-- **Full QuantForge**: *(Private repo - available upon request for mentors)*
+Built as a demonstration of production-grade AI architecture for financial markets. This project showcases multi-source data integration, fault-tolerant design, and scalable pipeline patterns suitable for Apache Beam integration.
 
----
-
-##  Acknowledgments
-
-Built solo as part of my journey to:
-1. Master data structures & algorithms (12-week intensive)
-2. Contribute to Apache Beam for GSoC 2026
-3. Build production AI systems for finance
-
-**Feedback welcome!** 
+**Feedback and contributions welcome!**
+ 

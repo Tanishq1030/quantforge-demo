@@ -1,0 +1,13 @@
+# Core dependencies
+requests>=2.31.0
+python-dateutil>=2.8.2
+loguru>=0.7.0
+
+# Data sources
+yfinance>=0.2.30
+pandas>=2.1.0
+
+# Optional API-based connectors (comment out if not using)
+# alpha-vantage>=2.3.1
+# finnhub-python>=2.4.0
+# twelvedata>=1.2.0

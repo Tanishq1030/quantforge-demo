@@ -190,7 +190,8 @@ MIT License - see LICENSE file
 
 ## Acknowledgments
 
-Built as a demonstration of production-grade AI architecture for financial markets. This project showcases multi-source data integration, fault-tolerant design, and scalable pipeline patterns suitable for Apache Beam integration.
+Built as a demonstration of production-grade AI architecture for financial markets. This project showcases multi-source data integration with automatic fallback, rate limiting, and fault-tolerant design patterns.
 
 **Feedback and contributions welcome!**
+
 

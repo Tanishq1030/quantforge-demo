@@ -190,15 +190,6 @@ MIT License - see LICENSE file
 
 ---
 
-##  Links
-
-- **Author**: [Your Name]
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your Profile]
-- **Full QuantForge**: *(Private repo - available upon request for mentors)*
-
----
-
 ##  Acknowledgments
 
 Built solo as part of my journey to:
